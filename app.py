@@ -8,7 +8,7 @@ import ast
 # CONFIG
 # ===============================
 TOKEN = os.getenv("DISCORD_TOKEN") 
-CHANNEL_ID = os.getenv("DISCORD_CHANNEL") 
+CHANNEL_ID = 1446377826201636954
 POKE_FOLDER = "pokemon_images"
 ALT_FILE = "alt.txt"
 
