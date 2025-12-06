@@ -89,6 +89,7 @@ async def pokemon_swap():
         await channel.send(f"Previous Pokémon was **{last_pokemon}**")
 
     # ========== SEND IMAGE ==========
+    poke_key = poke_key.title()
     img_path = f"{POKE_FOLDER}/{poke_key}.png"
     if not os.path.exists(img_path):
         await channel.send(f"⚠ Missing image `{poke_key}.png`")
